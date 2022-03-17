@@ -10,18 +10,18 @@ package com.mycompany.proxectomaquinabebidaselena;
  */
 public class TarxetaMoedeiro {
     
-    private String saldo;
+    private int saldo;
 
-    public TarxetaMoedeiro(String saldo) {
+    public TarxetaMoedeiro(int saldo) {
         this.saldo = saldo;
-    }
-    
-        /**
+    } 
+   
+    /**
      * Get the value of saldo
      *
      * @return the value of saldo
      */
-    public String getSaldo() {
+    public int getSaldo() {
         return saldo;
     }
 
@@ -30,7 +30,7 @@ public class TarxetaMoedeiro {
      *
      * @param saldo new value of saldo
      */
-    public void setSaldo(String saldo) {
+    public void setSaldo(int saldo) {
         this.saldo = saldo;
     }
 
@@ -39,6 +39,6 @@ public class TarxetaMoedeiro {
         return "TarxetaMoedeiro{" + "saldo=" + saldo + '}';
     }
 
-        
+           
     
 }
