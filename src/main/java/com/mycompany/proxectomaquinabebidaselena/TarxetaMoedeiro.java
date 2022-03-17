@@ -41,6 +41,20 @@ public class TarxetaMoedeiro {
             return -1;
         }
     }
+    
+    public int pagarRefresco(){
+        int saldoFinal = -1;
+        if (this.saldo >=2) {
+            saldoFinal = this.saldo-2;
+        }
+        return saldoFinal;
+    }
+    
+    public int engadirCartos (int cantidade){
+            int saldoFinal = this.saldo + cantidade;
+            return saldoFinal;
+            
+    }        
 
     @Override
     public String toString() {
