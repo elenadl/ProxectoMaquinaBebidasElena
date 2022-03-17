@@ -33,6 +33,14 @@ public class TarxetaMoedeiro {
     public void setSaldo(int saldo) {
         this.saldo = saldo;
     }
+    
+    public int pagarCafe(){
+        if (this.saldo>=1){
+            return this.saldo -1;
+        } else{
+            return -1;
+        }
+    }
 
     @Override
     public String toString() {
